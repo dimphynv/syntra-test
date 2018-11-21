@@ -1,0 +1,27 @@
+body{
+  background-color: white;
+}
+
+.navbar{
+  height: 100px;
+  background-color: darkblue;
+}
+
+.container{
+  background-color: white;
+  width: 90%;
+  margin: auto;
+
+
+}
+
+.box{
+  float: left;
+  width: 40%;
+  padding: 20px;
+  height: 200px;
+  margin: 20px;
+  border: 6px solid darkblue;
+  background-color: lightgrey;
+
+}

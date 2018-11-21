@@ -1,0 +1,40 @@
+a{
+  color: green;
+
+}
+
+a:visited {
+  color: black;
+  text-shadow: 3px;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:active {
+  color: purple;
+  text-decoration: line-through;
+
+}
+/*als een link al bezocht is dan zal de active state hiermee veranderen, hierboven staan pseudo elementen*/
+a:visited:active{
+  color: blue;
+}
+
+.para >p:first-of-type{
+  color: #7E8184;
+  font-style: italic;
+}
+
+.para > p:last-of-type{
+  color: #a4ddd3;
+  font-size: normal;
+}
+
+.para {
+  color:white;
+  width: 400px;
+  background-color: black;
+}
